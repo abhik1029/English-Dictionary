@@ -45,8 +45,8 @@ app.post("/email", (req, res) => {
 const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "@Abhi2003",
-  database: "dictionary",
+  password: "enter password of host",
+  database: "enter database which is supposed to get used",
 });
 
 connection.connect((err) => {
